@@ -16,7 +16,6 @@ namespace Calculadora_completa_no_CMD
             bool escolheuSair = false;
             while(!escolheuSair)
             {
-                //Exiba o menu
                 Console.WriteLine("Seja ben vindo ao CALC, selecione uma das opções:");
                 Console.WriteLine("1-Soma\n2-Subtração\n3-Divisão\n4-Multiplicação\n5-Potencia\n6-Raiz\n7-Sair");
 
@@ -46,11 +45,8 @@ namespace Calculadora_completa_no_CMD
                         escolheuSair = true;
                         break;
                 }
-//                Console.WriteLine(opcao);
-//                Console.ReadLine();
                 Console.Clear();
             }
-            //
         }
         
         static void Soma()
@@ -116,12 +112,6 @@ namespace Calculadora_completa_no_CMD
                 Console.WriteLine("Digite o expoente número: ");
                 int expo = int.Parse(Console.ReadLine());
                 int resultado = (int)Math.Pow(baseNum, expo);
-
-                //float
-                //double
-                //decimal
-
-
                 Console.WriteLine($"O resultado é:  {resultado}");
                 Console.WriteLine("Aperte ENTER para voltar para o menu");
                 Console.ReadLine();
