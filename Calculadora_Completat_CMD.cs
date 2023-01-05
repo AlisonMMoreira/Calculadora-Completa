@@ -16,7 +16,7 @@ namespace Calculadora_completa_no_CMD
             bool escolheuSair = false;
             while(!escolheuSair)
             {
-                Console.WriteLine("Seja ben vindo ao CALC, selecione uma das opções:");
+                Console.WriteLine("Seja bem vindo ao CALC, selecione uma das opções:");
                 Console.WriteLine("1-Soma\n2-Subtração\n3-Divisão\n4-Multiplicação\n5-Potencia\n6-Raiz\n7-Sair");
 
                 Menu opcao = (Menu)int.Parse(Console.ReadLine());
